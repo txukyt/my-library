@@ -1,0 +1,17 @@
+{
+  "name": "my-library",
+  "version": "1.0.0",
+  "description": "Ejemplo de biblioteca para Node.js con Rollup",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.59.7"
+  },
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4"
+  }
+}
